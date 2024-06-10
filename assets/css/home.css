@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #013A63;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+header {
+    color: white;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    border-bottom: 2px solid white;
+}
+
+header video {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    object-fit: cover;
+}
+
+header #menu-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 15px 40px;
+}
+
+
+header #menu-Container ul {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+
+
+header #menu-Container ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+header #menu-Container ul li a:hover {
+    color: #028090;
+}
+
+header #Introduction-Container {
+    width: 55%;
+    padding: 40px;
+}
+
+header #Introduction-Container h2 {
+    font-size: 50px;
+}
+
+header #Introduction-Container p {
+    margin-top: 20px;
+    font-size: 29px;
+}
+
+main {
+    margin-top: 40px;
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+main #about-Container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 20px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 2px solid white;
+}
+
+
+main #about-Container #Video-Pitch {
+     width: 500px;
+     height: 300px;
+
+}
+
+main #about-Container #TextVideoPitchContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 700px;
+    height: 220px;
+}
+
+
+main #about-Container #TextVideoPitchContainer h2 {
+    font-size: 36px;
+}
+
+main #about-Container #TextVideoPitchContainer p {
+    font-size: 21px;
+    font-weight: 200;
+}
+
+
+
+main #about-Container #TextVideoPitchContainer button {
+    font-size: 18px;
+    width: 140px;
+    height: 80px;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    background-color: #028090;
+    border-radius: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+main #about-Container #TextVideoPitchContainer button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+main #Features h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main #Features hr {
+    margin: 0 auto 60px auto;
+    width: 120px;
+}
+
+
+
+main #Features #Card-Container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+
+main #Features .feature-Card {
+    width: 300px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+main #Features .feature-Card img {
+    width: 50px;
+    height: 50px;
+}
+
+main #Features .feature-Card h5 {
+    font-size: 24px;
+}
+
+
+main #Features .feature-Card h6 {
+    font-size: 16px;
+}
+
+
+footer {
+    display: flex;
+    padding: 20px;
+    color: white;
+    gap: 270px;
+    align-items: center;
+}
+footer #fiapLogo {
+    position: relative;
+    top: 34px;
+    width: 140px;
+    height: auto
+}
+
+footer #O2OLogo {
+    width: 80px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+
+footer #RM-container {
+    width: 400px;
+}
+
+footer #RM-container h4 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+footer #RM-container #h5-Container {
+    justify-content: center;
+    align-items: center;
+   display: grid;
+   grid-template-rows: 1fr 1fr ;
+   grid-template-columns: 1fr 1fr;
+   gap: 15px;
+}
+

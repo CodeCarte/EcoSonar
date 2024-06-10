@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    background-color: #013A63;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+
+
+header #menu-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 15px 40px;
+}
+
+
+
+header #menu-Container ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    gap: 40px;
+}
+
+
+header #menu-Container ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+header #menu-Container ul li a:hover {
+    color: #028090;
+}
+
+
+header #IntroductionSolutions-Container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+header #Introduction-H1 {
+    font-size: 60px;
+}
+
+
+main {
+    padding: 100px 20px 20px 60px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+main img {
+    width: 400px;
+    height: 400px;
+}
+
+main .SolutionsSection {
+    justify-content: center;
+    display: flex;
+}
+
+
+main .SolutionsSection .text-card {
+    padding: 10px 0px;
+    width: 400px;
+    padding: 10px;
+    height: 400px;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+}
+
+
+
+main .SolutionsSection .text-card h2 {
+    font-size: 30px;
+}
+
+main .SolutionsSection .text-card p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+footer {
+    margin-top: 100px;
+    border-top: 2px solid white;
+    display: flex;
+    padding: 20px;
+    gap: 270px;
+    color: white;
+    align-items: center;
+}
+
+
+
+footer #fiapLogo {
+    width: 140px;
+    height: auto;
+    position: relative;
+    top: 34px;
+}
+
+
+
+footer #O2OLogo {
+    width: 80px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    margin-left: 24px;
+}
+
+
+
+footer #RM-container {
+    width: 400px;
+}
+
+
+footer #RM-container h4 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+
+
+footer #RM-container #h5-Container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

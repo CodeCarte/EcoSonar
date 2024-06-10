@@ -1,225 +1,123 @@
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-body {
-background-color: #013A63;
-font-family: "Open Sans", sans-serif;
-width: 100%;
-height: 100%;
-}
-header {
-color: white;
-width: 100%;
-height: 800px;
-display: flex;
-flex-direction: column;
-gap: 100px;
-border-bottom: 2px solid white;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-header video {
-position: absolute;
-width: 100%;
-height: 800px;
-z-index: -1;
-object-fit: cover;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSonar</title>
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="assets/js/scriptPage1.js" defer></script>
+</head>
 
-header #menu-Container {
-display: flex;
-justify-content: space-between;
-align-items: center;
-border-bottom: 1px solid white;
-padding: 15px 40px;
-}
+<body>
+    <header>
+        <video src="assets/VideoSonar.mp4" autoplay muted loop></video>
+        <section id="menu-Container">
+            <h1>EcoSonar</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="assets/html/OurResponsibility.html">Nossa Responsabilidade</a></li>
+                    <li><a href="assets/html/SolutionsPage.html">Soluções</a></li>
+                </ul>
+            </nav>
+        </section>
 
+        <section id="Introduction-Container">
+            <h2>Tecnologia de sonar para conservação marinha</h2>
+            <p>protegendo nossos oceanos com precisão e inovação</p>
+        </section>
+    </header>
+    <main>
+        <section id="about-Container">
+            <div id="Video-Pitch">
 
-header #menu-Container ul {
-list-style: none;
-font-size: 20px;
-display: flex;
-gap: 40px;
-}
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yInnPGTgKDg?si=0IEcQTPrJtC-sn_V"
+                    title="YouTube video player" frameborder="0" allow="accelerometer;
+                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+            </div>
+            <section id="TextVideoPitchContainer">
+                <h2>SOBRE ECOSONAR</h2>
 
+                <p>EcoSonar é uma tecnologia de sonar avançada dedicada à conservação dos ecossistemas marinhos.
+                    Utilizando ondas sonoras para detectar e mapear objetos submersos,
+                    EcoSonar oferece uma visão detalhada do ambiente marinho,
+                    permitindo intervenções precisas e rápidas.</p>
 
-header #menu-Container ul li a {
-color: white;
-text-decoration: none;
-transition: 0.4s;
-}
+                <button id="saiba-mais">Saiba Mais</button>
+            </section>
+        </section>
+        <section id="Features">
+            <h2>FUNCIONALIDADES</h2>
+            <hr>
+            <div id="Card-Container">
+                <div class="feature-Card">
+                    <img src="assets/imgs/FiapSonar1.0.png" alt="">
+                    <H5>Detecção de Detritos Marinhos</H5>
+                    <h6>Identifica e mapeia resíduos plásticos e outros detritos,
+                        facilitando operações de limpeza antes que causem danos à vida marinha.</h6>
+                </div>
 
-header #menu-Container ul li a:hover {
-color: #028090;
-}
+                <div class="feature-Card">
+                    <img src="assets/imgs/FiapSonar1.1.png" alt="">
+                    <h5>Identificação de Redes de Pesca "Fantasmas"</h5>
+                    <h6>Localiza "redes fantasmas" submersas,
+                        permitindo que equipes de resgate as removam, reduzindo a mortalidade de espécies marinhas.</h6>
+                </div>
 
-header #Introduction-Container {
-width: 55%;
-padding: 40px;
-}
+                <div class="feature-Card">
+                    <img src="assets/imgs/FiapSonarr1.2.png" alt="">
+                    <h5>Mapeamento de Habitats Marinhos Críticos</h5>
+                    <h6>Mapeia habitats importantes como leitos de algas marinhas,
+                        estuários e áreas de reprodução de peixes, ajudando na designação de áreas protegidas.</h6>
+                </div>
 
-header #Introduction-Container h2 {
-font-size: 50px;
-}
+                <div class="feature-Card">
+                    <img src="assets/imgs/FIapSonar1.3.png" alt="">
+                    <h5>Monitoramento de Recifes de Coral</h5>
+                    <h6>Utiliza sonar de alta resolução para monitorar a saúde dos recifes,
+                        detectando sinais de branqueamento, danos físicos ou crescimento anormal.</h6>
+                </div>
 
-header #Introduction-Container p {
-margin-top: 20px;
-font-size: 29px;
-}
-
-main {
-margin-top: 40px;
-color: white;
-padding: 10px;
-border-bottom: 2px solid white;
-}
-
-main #about-Container {
-width: 90%;
-margin: 0 auto;
-padding: 30px 20px 20px 0px;
-display: flex;
-justify-content: space-between;
-margin-bottom: 40px;
-border-bottom: 2px solid white;
-}
-
-
-main #about-Container #Video-Pitch {
-width: 500px;
-height: 300px;
-
-}
-
-main #about-Container #TextVideoPitchContainer {
-display: flex;
-flex-direction: column;
-gap: 30px;
-width: 700px;
-height: 220px;
-}
+                <div class="feature-Card">
+                    <img src="assets/imgs/Fiap1,4.png" alt="">
+                    <h5>Vigilância de Embarcações de Pesca</h5>
+                    <h6>Detecta práticas de pesca destrutivas ou ilegais,
+                        ajudando as autoridades a aplicar leis de pesca e proteger áreas vulneráveis.</h6>
+                </div>
+            </div>
 
 
-main #about-Container #TextVideoPitchContainer h2 {
-font-size: 36px;
-}
+        </section>
+    </main>
 
-main #about-Container #TextVideoPitchContainer p {
-font-size: 21px;
-font-weight: 200;
-}
-
-
-
-main #about-Container #TextVideoPitchContainer button {
-font-size: 18px;
-width: 140px;
-height: 80px;
-outline: none;
-border: none;
-padding: 15px 20px;
-background-color: #028090;
-border-radius: 20px;
-transition: 0.4s;
-cursor: pointer;
-}
+    <footer>
+        <section id="Logo-Container">
+            <img id="fiapLogo" src="assets/imgs/LogodaFiap.png" alt="">
+            <span>X</span>
+            <img id="O2OLogo" src="assets/imgs/LogoO2O.png" alt="">
+        </section>
 
 
-main #about-Container #TextVideoPitchContainer button:hover {
-background-color: black;
-color: white;
-}
+        <section id="RM-container">
+            <h4>CodeCartel</h4>
+            <div id="h5-Container">
+                <h5>RM: 555093 (Angelo Rafael)</h5>
+                <h5>RM: 557413 (Yasmin Kimura)</h5>
+                <h5>RM: 557449 (Victor Martins)</h5>
+                <h5>RM: 556638 (João Maia)</h5>
+            </div>
+        </section>
 
 
+    </footer>
 
+</body>
 
-main #Features h2 {
-margin-bottom: 20px;
-text-align: center;
-}
-
-main #Features hr {
-margin: 0 auto 60px auto;
-width: 120px;
-}
-
-
-
-main #Features #Card-Container {
-margin: 0 auto;
-display: flex;
-justify-content: center;
-align-items: center;
-max-width: 80%;
-flex-wrap: wrap;
-gap: 50px;
-margin-bottom: 80px;
-padding: 20px;
-}
-
-
-main #Features .feature-Card {
-width: 300px;
-height: 220px;
-display: flex;
-flex-direction: column;
-gap: 10px;
-
-}
-
-main #Features .feature-Card img {
-width: 50px;
-height: 50px;
-}
-
-main #Features .feature-Card h5 {
-font-size: 24px;
-}
-
-
-main #Features .feature-Card h6 {
-font-size: 16px;
-}
-
-
-footer {
-display: flex;
-padding: 20px;
-color: white;
-gap: 270px;
-align-items: center;
-}
-footer #fiapLogo {
-position: relative;
-top: 34px;
-width: 140px;
-height: auto
-}
-
-footer #O2OLogo {
-width: 80px;
-height: auto;
-position: relative;
-top: 20px;
-margin-left: 20px;
-}
-
-footer #RM-container {
-width: 400px;
-}
-
-footer #RM-container h4 {
-margin-bottom: 20px;
-text-align: center;
-font-size: 17px;
-}
-footer #RM-container #h5-Container {
-justify-content: center;
-align-items: center;
-display: grid;
-grid-template-rows: 1fr 1fr ;
-grid-template-columns: 1fr 1fr;
-gap: 15px;
-}
+</html>
